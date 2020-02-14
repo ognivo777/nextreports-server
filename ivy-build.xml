@@ -6,7 +6,7 @@
     <property name="ivy.jar.name" value="ivy-${ivy.install.version}.jar"/>
     <property name="ivy.jar.dir" value="ivy-lib"/>
     <property name="ivy.jar.file" value="${ivy.jar.dir}/ivy-${ivy.install.version}.jar"/>
-    <property name="central.repo" value="http://repo1.maven.org/maven2"/>
+    <property name="central.repo" value="https://repo1.maven.org/maven2"/>
 
 	<available property="ivy.installed" value="true" file="${ivy.jar.file}" type="file"/>
 	

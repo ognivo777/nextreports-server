@@ -1,5 +1,5 @@
 /* Created by JReleaseInfo AntTask from Open Source Competence Group */
-/* Creation date Tue Jan 14 15:24:12 EET 2014 */
+/* Creation date Fri Feb 14 15:55:46 EET 2020 */
 package ro.nextreports.server;
 
 import java.util.Date;
@@ -12,41 +12,14 @@ import java.util.Date;
 public class ReleaseInfo {
 
 
-   /** buildDate (set during build process to 1389705852145L). */
-   private static Date buildDate = new Date(1389705852145L);
+   /** buildDate (set during build process to 1581688546071L). */
+   private static Date buildDate = new Date(1581688546071L);
 
    /**
-    * Get buildDate (set during build process to Tue Jan 14 15:24:12 EET 2014).
+    * Get buildDate (set during build process to Fri Feb 14 15:55:46 EET 2020).
     * @return Date buildDate
     */
    public static final Date getBuildDate() { return buildDate; }
-
-
-   /** home (set during build process to "http://www.next-reports.com"). */
-   private static String home = "http://www.next-reports.com";
-
-   /**
-    * Get home (set during build process to "http://www.next-reports.com").
-    * @return String home
-    */
-   public static final String getHome() { return home; }
-
-
-   /**
-    * Get buildNumber (set during build process to 0).
-    * @return int buildNumber
-    */
-   public static final int getBuildNumber() { return 0; }
-
-
-   /** company (set during build process to "NextReports"). */
-   private static String company = "NextReports";
-
-   /**
-    * Get company (set during build process to "NextReports").
-    * @return String company
-    */
-   public static final String getCompany() { return company; }
 
 
    /** project (set during build process to "NextReports Server"). */
@@ -59,23 +32,50 @@ public class ReleaseInfo {
    public static final String getProject() { return project; }
 
 
-   /** copyright (set during build process to "2013"). */
-   private static String copyright = "2013";
+   /** copyright (set during build process to "2009-2016"). */
+   private static String copyright = "2009-2016";
 
    /**
-    * Get copyright (set during build process to "2013").
+    * Get copyright (set during build process to "2009-2016").
     * @return String copyright
     */
    public static final String getCopyright() { return copyright; }
 
 
-   /** version (set during build process to "7.0-SNAPSHOT"). */
-   private static String version = "7.0-SNAPSHOT";
+   /** version (set during build process to "9.3-SNAPSHOT"). */
+   private static String version = "9.3-SNAPSHOT";
 
    /**
-    * Get version (set during build process to "7.0-SNAPSHOT").
+    * Get version (set during build process to "9.3-SNAPSHOT").
     * @return String version
     */
    public static final String getVersion() { return version; }
+
+
+   /** company (set during build process to "NextReports"). */
+   private static String company = "NextReports";
+
+   /**
+    * Get company (set during build process to "NextReports").
+    * @return String company
+    */
+   public static final String getCompany() { return company; }
+
+
+   /**
+    * Get buildNumber (set during build process to 0).
+    * @return int buildNumber
+    */
+   public static final int getBuildNumber() { return 0; }
+
+
+   /** home (set during build process to "http://www.next-reports.com"). */
+   private static String home = "http://www.next-reports.com";
+
+   /**
+    * Get home (set during build process to "http://www.next-reports.com").
+    * @return String home
+    */
+   public static final String getHome() { return home; }
 
 }

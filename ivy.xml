@@ -115,7 +115,7 @@
         <dependency org="com.googlecode.sardine" name="sardine" rev="129"/>
 
         <!-- FTP4j FTP client -->
-        <dependency org="it.sauronsoftware" name="ftp4j" rev="1.6"/>
+        <dependency org="com.github.asbachb" name="ftp4j" rev="1.7.3"/>
 
         <!-- Wiquery -->
         <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.4"/>
@@ -172,7 +172,7 @@
         <dependency org="com.orientechnologies" name="orientdb-jdbc" rev="2.0"/>
         
         <!-- Licence -->
-        <dependency org="licence" name="licence-validator" rev="0.0.1"/>
+<!--        <dependency org="licence" name="licence-validator" rev="0.0.1"/>-->
     </dependencies>
 
 </ivy-module>
